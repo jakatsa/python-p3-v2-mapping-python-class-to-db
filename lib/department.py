@@ -3,7 +3,7 @@ from __init__ import CURSOR, CONN
 
 class Department:
 
-    # Dictionary of objects saved to the database.
+    # Dictionary of objects saved to the databases.
     all = {}
 
     def __init__(self, name, location, id=None):
